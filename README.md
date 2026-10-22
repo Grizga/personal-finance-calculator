@@ -1,1 +1,13 @@
-# personal-finance-calculator
+# Калькулятор личных финансов
+
+Консольное приложение для учёта доходов и расходов.
+
+## Описание
+Приложение позволяет добавлять операции (доход/расход), указывать сумму, категорию и дату, просматривать список операций и текущий баланс.
+
+## Установка и запуск
+Требуется Python 3.6+.
+```bash
+git clone https://github.com/Grizga/personal-finance-calculator.git
+cd personal-finance-calculator
+python src/main.py
