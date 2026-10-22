@@ -76,7 +76,7 @@ jobs:
         bandit -r src/ -f html -o security-report.html || true
 
     - name: Upload security report
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: security-report
         path: security-report.html
